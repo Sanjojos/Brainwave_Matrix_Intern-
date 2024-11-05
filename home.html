@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./todo.css">
+    <script src="./script.js" defer></script>
+    <title>To-Do</title>
+</head>
+<body>
+    <section class="todo">
+        <h2>To-Do List</h2>
+        <div class="input"> 
+            <input type="text" id="todoInput"  class="inputfield" placeholder="Add a new todo">
+            <button class="btn">Add</button>
+        </div>
+            
+            <ul class="scroll">
+                <li id="todolist"></li>
+            </ul>
+       
+        <div>
+        <hr class="count"/>
+        <div class="counts">
+        <p><span id="todoCount">0</span> Total list</p>
+        <button id="deleteBtn">Delete all</button>
+        </div>
+       </div>
+       
+       
+    </section>
+</body>
+</html>
