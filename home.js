@@ -172,6 +172,7 @@ const Home = () => {
               <p>Size: {product.size}</p>
               <p>Price: ${product.price}</p>
               <button onClick={() => addToCart(product)}>Add to Cart</button>
+               <button >Buy Now</button>
             </div>
           </div>
         ))}
@@ -199,6 +200,7 @@ const Home = () => {
               <p>Size: {product.size}</p>
               <p>Price: ${product.price}</p>
               <button onClick={() => addToCart(product)}>Add to Cart</button>
+               <button >Buy Now</button>
             </div>
           </div>
         ))}
